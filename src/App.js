@@ -1,11 +1,15 @@
 import React from 'react'
 import './index.css';
-import Home from './Pages/Home';
+// import CategoryPage from './Pages/CategoryPage';
+import ProductPage from './Pages/ProductPage';
+// import Home from './Pages/Home';
 
 const App = () => {
   return (
     <>
-      <Home/>
+      {/* <Home/> */}
+      {/* <CategoryPage/> */}
+      <ProductPage/>
     </>
   )
 }
